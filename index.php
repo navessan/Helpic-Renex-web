@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
 
@@ -218,7 +218,7 @@ $tsql = "SELECT TOP 50
 			else '-' end) as pol
       ,[Date file] as imagedate
       ,[Apicriz]
-  FROM [xray2007].[dbo].[Snimok] as s
+  FROM [Snimok] as s
   join Patient as p on p.Patient=S.Patient
 ";
 
